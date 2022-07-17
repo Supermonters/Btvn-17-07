@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <script> 
+
+    function playMusic(){
+  var music = new Audio("assets/GiayPhut1.mp3");
+    music.play();
+    
+    setTimeout(() => {
+      document.getElementById('1').innerHTML ='Có lẽ? không!';
+    }, 500);
+   
+    setTimeout(() => {
+      document.getElementById('2').innerHTML ="Anh chắc chắn, trông";
+    }, 2000);
+    
+    setTimeout(() => {
+      document.getElementById('3').innerHTML ="Chờ đợi baby girl";
+    }, 4000);
+   
+    setTimeout(() => {
+      document.getElementById('4').innerHTML ="Anh muốn kế bên em, oh baby";
+    }, 5500);
+   
+    setTimeout(() => {
+      document.getElementById('5').innerHTML ="Anh muốn có";
+    }, 8000);
+    setTimeout(() => {
+      document.getElementById('6').innerHTML ="Có được shawty";
+    }, 9500);
+    setTimeout(() => {
+      document.getElementById('7').innerHTML ="Vì em là";
+    }, 11500);
+    setTimeout(() => {
+      document.getElementById('8').innerHTML ="Mọi thứ em à";
+    }, 13000);
+    setTimeout(() => {
+      document.getElementById('9').innerHTML ="Màu hồng tím";
+    }, 15150);
+    setTimeout(() => {
+      document.getElementById('10').innerHTML ="Anh không muốn đau tim đâu em";
+    }, 18000);
+    setTimeout(() => {
+      document.getElementById('11').innerHTML ="Màu hồng tím";
+    }, 22500);
+    setTimeout(() => {
+      document.getElementById('12').innerHTML ="Anh không muốn tim phải đau, em";
+    }, 25500);
+    setTimeout(() => {
+      document.getElementById('13').innerHTML ="Yeah!";
+    }, 29000);
+    setTimeout(() => {
+      location.reload()
+    }, 30000);
+  }
+    </script>
+ 
+    
+
+  <div style="height: 60vw;width: 100vw;background-color: black;">
+    <div class="vertical-center">
+    <button style="align-items: center;"> <input role="button" type="button" class="button-54" value="Mở nhạc" onclick="playMusic()" /></button>
+  </div>
+
+
+   <ul>
+    <li id="1"></li>
+    <li id="2"></li>
+    <li id="3"></li>
+    <li id="4"></li>
+    <li id="5"></li>
+    <li id="6"></li>
+    <li id="7"></li>
+    <li id="8"></li>
+    <li id="9"style="color: #B399D4;"></li>
+    <li id="10"></li>
+    <li id="11"style="color: #B399D4;"></li>
+    <li id="12"></li>
+    <li id="13"></li>
+   </ul>
+  </div>
+</body>
+</html>
